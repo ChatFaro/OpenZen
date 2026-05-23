@@ -19,6 +19,7 @@ import shit.zen.modules.impl.combat.AutoSoup;
 import shit.zen.modules.impl.combat.AutoThrow;
 import shit.zen.modules.impl.combat.Backtrack;
 import shit.zen.modules.impl.combat.Critical;
+import shit.zen.modules.impl.combat.Critical123;
 import shit.zen.modules.impl.combat.CrystalAura;
 import shit.zen.modules.impl.combat.KillAura;
 import shit.zen.modules.impl.exploit.Disabler;
@@ -89,6 +90,7 @@ public class ModuleManager extends ClientBase {
         this.register(new AutoOffHand());
         this.register(new AutoSoup());
         this.register(new AutoThrow());
+        this.register(new Critical123());
         this.register(new Backtrack());
         this.register(new Critical());
         this.register(new CrystalAura());
